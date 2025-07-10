@@ -1,8 +1,8 @@
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import ReactGA from 'react-ga4';
 
 
-export default function Contact() {
+function Contact() {
 
               useEffect(() => {
         ReactGA.initialize('G-3K6BQPTBXC');
@@ -12,3 +12,5 @@ export default function Contact() {
 
     return <h2>Contact Page</h2>;
 }
+
+export default Contact;
